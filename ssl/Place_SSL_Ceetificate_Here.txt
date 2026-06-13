@@ -1,0 +1,2 @@
+Please your SSL domain or IP address certificate here and update the server.js file to point to it.
+If you don't have a certificate, the site Lets Encrypt provides certificates for free.
