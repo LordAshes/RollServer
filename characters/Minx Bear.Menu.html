@@ -1,0 +1,132 @@
+<style>
+	.rollButtonType1 { all: revert; appearance: auto; -webkit-appearance: button; width: 50px; margin-bottom: 8px; }
+	.rollButtonType2 { all: revert; appearance: auto; -webkit-appearance: button; width: 120px; margin-bottom: 8px; }
+	.rollButtonType3 { all: revert; appearance: auto; -webkit-appearance: button; width: 180px; text-align: left; margin-bottom: 8px; }
+	.rollButtonType4 { all: revert; appearance: auto; -webkit-appearance: button; width: 160px; text-align: left; margin-bottom: 8px; }
+	.rollRadioLabel { all: revert; display: inline-block; margin-right: 20px; }
+    .rollRadioInput { all: revert; appearance: auto; -webkit-appearance: radio; vertical-align: middle; }
+</style>
+<div style="position: absolute; left: 350px; top: 200px; width: 863px; height: 668px; color: black; background-color: white; border: solid 1px; box-shadow: 5px 5px 10px rgba(0,0,0,0.75);">
+		
+	<div style="z-index: 0; position: absolute; left: 10px; top: 20px; width: 70px; height: 626px; border: 1px solid; background-color: white;">
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/Initiative/Minx Bear">INIT</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/Hit Die Barbarian/Minx Bear">HD<span style="font-size: 6pt;">B</span></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/Hit Die Druid/Minx Bear">HD<span style="font-size: 6pt;">D</span></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/Hit Points/Minx Bear">HP</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll-prompt="5E/Hit Points/Minx Bear">&plusmn; HP</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/Spell DC/Minx Bear">DC</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/STR Save/Minx Bear"><span style="font-size: 6pt;">@</span>STR</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/DEX Save/Minx Bear"><span style="font-size: 6pt;">@</span>DEX</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/CON Save/Minx Bear"><span style="font-size: 6pt;">@</span>CON</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/INT Save/Minx Bear"><span style="font-size: 6pt;">@</span>INT</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/WIS Save/Minx Bear"><span style="font-size: 6pt;">@</span>WIS</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/CHA Save/Minx Bear"><span style="font-size: 6pt;">@</span>CHA</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/STR/Minx Bear">STR</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/DEX/Minx Bear">DEX</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/CON/Minx Bear">CON</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/INT/Minx Bear">INT</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/WIS/Minx Bear">WIS</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType1 data-roll="5E/CHA/Minx Bear">CHA</button><br>
+	</div>
+
+	<div style="z-index: 1; position: absolute; left: 100px; top: 12px; background-color: white; font-weight: 900;">
+		ROLL:
+	</div>
+	<div style="z-index: 0; position: absolute; left: 90px; top: 20px; width: 760px; height: 50px; border: 1px solid; background-color: white;">
+		<div style="z-index: 0; position: absolute; left: 170px;">
+			<br>
+			<label class="rollRadioLabel" data-menu="KEEP">
+				<input class="rollRadioInput" type="radio" data-menu="KEEP" name="rollStyle" value="" checked> NORMAL
+			</label>
+			<label class="rollRadioLabel" data-menu="KEEP">
+				<input class="rollRadioInput" type="radio" data-menu="KEEP" name="rollStyle" value="/ADVANTAGE"> ADVANTAGE
+			</label>
+			<label class="rollRadioLabel" data-menu="KEEP">
+				<input class="rollRadioInput" type="radio" data-menu="KEEP" name="rollStyle" value="/DISADVANTAGE"> DISADVANTAGE
+			</label>
+		</div>
+	</div>
+
+	<div style="z-index: 1; position: absolute; left: 100px; top: 82px; background-color: white; font-weight: 900;">
+		FORMS:
+	</div>
+	<div style="z-index: 0; position: absolute; left: 90px; top: 90px; width: 760px; height: 50px; border: 1px solid; background-color: white;">
+		<br>
+		&nbsp;&nbsp;&nbsp; 
+		&nbsp;&nbsp;&nbsp; 
+		<button class=rollButtonType2 data-impersonate="5E/Minx">Druid</button>&nbsp;&nbsp;&nbsp;
+		<button class=rollButtonType2 data-roll="5E/Use Wildshape/Minx" data-impersonate="5E/Minx Bear" disable>Fuzzball</button>&nbsp;&nbsp;&nbsp;
+		<button class=rollButtonType2 data-roll="5E/Use Wildshape/Minx" data-impersonate="5E/Minx Spider">Giant Spider</button>&nbsp;&nbsp;&nbsp;
+		<button class=rollButtonType2 data-roll="5E/Use Wildshape/Minx" data-impersonate="5E/Minx Wolf">Wolf</button>&nbsp;&nbsp;&nbsp;
+		<button class=rollButtonType2 data-roll="5E/Use Wildshape/Minx" data-impersonate="5E/Minx Tiny Spider">Spider</button>&nbsp;&nbsp;&nbsp;
+	</div>
+
+	<div style="z-index: 1; position: absolute; left: 100px; top: 152px; background-color: white; font-weight: 900;">
+		NORMAL ATTACKS:
+	</div>
+	<div style="z-index: 0; position: absolute; left: 90px; top: 160px; width: 200px; height: 263px; border: 1px solid; background-color: white;">
+		<br>		
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Multiattack/Minx Bear">Attacks</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Shove Attack/Minx Bear">Shove</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Multiattack/Minx Bear/Advantage">Advantage Attacks</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Shove Attack/Minx Bear/Advantage">Advantage Shoves</button><br>
+	</div>
+	<div style="z-index: 1; position: absolute; left: 310px; top: 152px; background-color: white; font-weight: 900;">
+		RAGING ATTACKS:
+	</div>
+	<div style="z-index: 0; position: absolute; left: 300px; top: 160px; width: 200px; height: 263px; border: 1px solid; background-color: white;">
+		<br>		
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Raging Multiattack/Minx Bear">Raging Attacks</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Raging Shove Attack/Minx Bear">Raging Shove</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Raging Multiattack/Minx Bear/Advantage">Advantage Raging Attacks</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Raging Shove Attack/Minx Bear/Advantage">Advantage Raging Shoves</button><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Bear Unused Rage/Minx Bear">Show Rage</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Bear Rage/Minx Bear">Use Rage</button><br>
+	</div>
+	<div style="z-index: 1; position: absolute; left: 520px; top: 152px; background-color: white; font-weight: 900;">
+		MISC:
+	</div>
+	<div style="z-index: 0; position: absolute; left: 510px; top: 160px; width: 340px; height: 263px; border: 1px solid; background-color: white;">
+		<br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Cure Wounds LV1/Minx Bear,5E/Use Slot LV1/Minx Bear">Cure Wounds (LV1)</button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType3 data-roll="5E/Cure Wounds LV2/Minx Bear,5E/Use Slot LV2/Minx Bear">Cure Wounds (LV2)</button><br>
+	</div>
+	
+	<div style="z-index: 1; position: absolute; left: 100px; top: 433px; background-color: white; font-weight: 900;">
+		SKILLS:
+	</div>
+	<div style="z-index: 0; position: absolute; left: 90px; top: 441px; width: 760px; height: 205px; border: 1px solid; background-color: white;">
+		<br>		
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Acrobatics/Minx Bear">ACROBATICS</BUTTON></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Animal Handling/Minx Bear">ANIMAL HANDLING</BUTTON></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Arcana/Minx Bear">ARCANA</BUTTON></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Athletics/Minx Bear">ATHLETICS</BUTTON></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Deception/Minx Bear">DECEPTION</BUTTON></button><br>
+		&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/History/Minx Bear">HISTORY</BUTTON></button><br>
+
+		<div style="z-index: 0; position: absolute; left: 180px; top: 20px; width: 220px; height: 180px; border: none; background-color: white;">		
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Insight/Minx Bear">INSIGHT</BUTTON></button><br>	
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Intimidation/Minx Bear">INTIMIDATION</BUTTON></button><br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Investigation/Minx Bear">INVESTIGATION</BUTTON></button><br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Medicine/Minx Bear">MEDICINE</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Nature/Minx Bear">NATURE</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Perception/Minx Bear">PERCEPTION</button></br>
+		</div>
+		<div style="z-index: 0; position: absolute; left: 360px; top: 20px; width: 220px; height: 180px; border: none; background-color: white;">			
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Performance/Minx Bear">PERFORMANCE</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Persuasion/Minx Bear">PERSUASION</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Religion/Minx Bear">RELIGION</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Sleight Of Hand/Minx Bear">SLEIGHT OF HAND</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Stealth/Minx Bear">STEALTH</button></br>
+			&nbsp;&nbsp;&nbsp;<button class=rollButtonType4 data-roll="5E/Survival/Minx Bear">SURVIVAL</button></br>
+		</div>
+	</div>
+</div>
